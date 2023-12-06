@@ -1,0 +1,5 @@
+<DropdownButton titile={"Filter by Type"} id={"dropdown"} onSelect={this.onFilter}>
+    <Dropdown.Item eventKey="All">All</Dropdown.Item>
+    <Dropdown.Item eventKey="Fruit">Fruit</Dropdown.Item>
+    <Dropdown.Item eventKey="Vegetable">Vegetable</Dropdown.Item>
+</DropdownButton>
