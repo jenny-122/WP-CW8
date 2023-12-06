@@ -27,8 +27,10 @@ class App extends Component {
     render() {
         return ( 
             <div className="App"> 
-                <HelloWorld name={'[Jenny]'}/> 
+                <HelloWorld name={'Jenny'}/> 
+                <Counter />
             </div>
+            
         );
     }
 }

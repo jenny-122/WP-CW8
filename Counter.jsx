@@ -12,17 +12,18 @@ class Counter extends Component {
     incrementCount = () => {
         /* TODO (Counter): Use setState() to modify the count. Here’s an example:
             this.setState({
-                keyToChange: valueToChangeTo
-            });
+        count: this.state.count + 1
         */
+        this.setState({
+            count: this.state.count + 1
+        });
     }
   
     render() {
         return (
             <div className="counter">
-                /*TODO (Counter): display the value of count*/
-
-                /*TODO (Counter): add a button that calls incrementCount() when clicked*/
+                <p>Count: {this.state.count}</p>
+                <button onClick={this.incrementCount}>Increment Count</button>
             </div>
         );
     }
