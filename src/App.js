@@ -29,6 +29,9 @@ class App extends Component {
             <div className="App"> 
                 <HelloWorld name={'Jenny'}/> 
                 <Counter />
+                <br />
+                <FilteredList items={produce} />
+                <br />
             </div>
             
         );
